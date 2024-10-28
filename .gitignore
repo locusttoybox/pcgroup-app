@@ -38,3 +38,44 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+node_modules/
+pids/
+
+# Next.js
+.next/
+next-env.d.ts
+next.config.mjs
+next.config.ts
+next.log
+next-watcher-cache-dir/
+
+# Production build output
+.next/build-manifest
+.next/static
+.next/static/chunks
+.next/standalone
+.next/coverage
+.next/trace
+
+# Dependency directories
+pnpm-store-*
+
+# Optional npm cache (for artifactory)
+.npm
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Framer Motion's `cache` directory
+.framer-motion/cache
+
+# Nuxt.js (if applicable)
+.cache
+nuxt.config.ts
